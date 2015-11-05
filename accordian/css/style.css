@@ -1,0 +1,20 @@
+.accordion-content {display: none;}
+.accordion-content.default {display: block;}
+
+.accordion-toggle-plus {
+    line-height: 2em;
+    background-color: #3E9477;
+    color: white;
+    border-radius: 10px;
+}
+
+.accordion-toggle-minus {
+    line-height: 2em;
+    background-color: #88a370;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+i.fa.fa-plus-circle, i.fa.fa-minus-circle {
+    margin: 0 10px;
+}
