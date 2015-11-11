@@ -1,6 +1,6 @@
 $(function() {
     
-    $('.tabbedMenu .tab-links a').on('click', function(e)  {
+    $('.tabMenu .tab-links a').on('click', function(e)  {
         e.preventDefault();
         $
 //        console.log($(e.currentTarget).attr('href'));
@@ -8,7 +8,7 @@ $(function() {
 //        var currentAttrValue = $(this).attr('href');
 
         // Show/Hide Tabs
-        $('.tabbedMenu ' + attrValue).show().siblings().hide();
+        $('.tabMenu ' + attrValue).show().siblings().hide();
  
         // Change/remove current tab to active
         $(e.currentTarget).parent('li').addClass('active').siblings().removeClass('active');
